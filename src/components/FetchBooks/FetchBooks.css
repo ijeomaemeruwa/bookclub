@@ -7,3 +7,27 @@
 .book_content {
     border: 1px solid #d5d5d5;
 }
+
+.book_content .title_strike {
+    font-weight: bold;
+}
+
+
+.modal_btn {
+    border: 1px solid #000;
+    border-radius: 30px;
+    outline: none !important;
+    width: 120px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.modal_btn:hover {
+    color: #fefffe;
+    background: #000;
+}

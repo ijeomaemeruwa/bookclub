@@ -7,11 +7,24 @@
     line-height: 25px;
 }
 
-.hero_text h1 {
+.hero_text .strike {
     font-size: 5rem;
     font-weight: 800;
     letter-spacing: 2px;
     color: var(--text-color);
+    position: relative;
+}
+
+.hero_text .strike::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 30px;
+    background: #f5e5e3;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    z-index: -1;   
 }
 
 .hero_text p {
@@ -29,14 +42,13 @@
     text-align: center;
     background: transparent;
     color: #000;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 17px;
     letter-spacing: 1px;
 }
 
 .hero_text .hero_btn:hover {
     color: #fff;
-    background: var(--primary-color);
+    background: #000;
     border: none;
 }
 

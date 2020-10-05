@@ -1,0 +1,22 @@
+.footer {
+    background: var(--primary-color);
+    color: var(--text-black);
+    height: 200px;
+   
+}
+
+.footer_container {
+    padding: 3rem;
+    max-width: 100%;
+}
+
+.footer_container input, .footer_container .footer_btn {
+    padding: 5px;
+    border: 1px solid #000;
+    outline: none !important;
+}
+
+.footer_container .footer_btn {
+    background: #000;
+    color: #fefffe;
+}

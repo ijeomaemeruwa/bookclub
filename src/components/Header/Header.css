@@ -1,0 +1,25 @@
+.header_container {
+    background: #1a1a1a;
+    color: #eecebf;
+    height: 200px;
+}
+
+.header_content {
+    padding: 3rem;
+}
+
+.header_content h2 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+    
+.header_content {
+    padding: 2rem;
+}
+
+.header_content h2 {
+    font-size: 1.5rem;
+}
+
+}
