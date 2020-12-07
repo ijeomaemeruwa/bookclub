@@ -28,7 +28,7 @@
 }
 
 .hero_text p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     color: #000;
 }
@@ -62,10 +62,10 @@
     }  
     
     .hero_text h1 {
-        font-size: 3rem;
+        font-size: 2rem !important;
     }
 
     .hero_text p {
-        font-size: 0.8rem;
+        font-size: 1rem !important;
     }
 }

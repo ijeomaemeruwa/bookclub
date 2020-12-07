@@ -1,17 +1,19 @@
-/*.search_widget {
-    background: url('../../assets/images/header-img.jpg') ;
+
+.book_result {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    margin: 1rem;
 }
 
-*/
-
-.book_content {
-    border: 1px solid #d5d5d5;
+.book_card {
+    margin: 2rem;
 }
-
-.book_content .title_strike {
-    font-weight: bold;
+    
+h5 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
-
 
 .modal_btn {
     border: 1px solid #000;

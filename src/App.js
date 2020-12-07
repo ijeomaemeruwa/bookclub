@@ -10,7 +10,8 @@ const App = () => {
       <Router>
       <Switch>
         <Route exact path="/"><LandingPage /></Route>
-        <Route exact path="/Books"><Books /></Route>
+        <Route exact path="/books"><Books /></Route>
+        {/* <Route path="/bookdetails/:id"><BookDetails/></Route> */}
         </Switch>
       </Router>
     </div>

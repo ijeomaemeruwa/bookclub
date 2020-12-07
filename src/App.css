@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 
 :root {
     --primary-color: #b4dae2;
@@ -8,12 +8,13 @@
     --text-color: #3e3c3c;
 }
 
-body {
-    font-family: 'Josefin Sans', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-img {
-    object-fit: cover;
-    width: 100%;
-    position: relative;
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
 }
